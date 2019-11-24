@@ -1,4 +1,5 @@
 from turtle import *
+from random import*
 y = Turtle()
 colormode(255)
 
@@ -196,7 +197,41 @@ def skyscraper():
   y.forward(85)
   y.forward(85)
 
+def fish():
+  #made by yasmine
+  y.pencolor("black")
+  y.fillcolor("orange")
+  y.begin_fill()
+  y.setheading(90)
+  fishTailSize = random()*30+20 
+  fishBodySize = random()*3+1   
+  for i in range(5):
+     y.forward(fishTailSize)
+     y.right(120)
+  y.end_fill()
+  y.right(172)
+  y.begin_fill()
+  for i in range(60):
+    y.forward(fishBodySize)
+    y.right(1.4)
+  y.right(90)
+  for i in range(60):
+    y.forward(fishBodySize)
+    y.right(1.5)
+  y.forward(5)
+  y.end_fill()
 
+def starfish():
+  #made by yasmine
+  y.penup()
+  y.pencolor("orange")
+  y.fillcolor("orange")
+  y.begin_fill()
+  y.pendown()
+  for i in range(5):
+    y.forward(50)
+    y.right(144)
+  y.end_fill()
  
 
 
