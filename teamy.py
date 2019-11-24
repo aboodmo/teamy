@@ -81,7 +81,8 @@ def skyscraper():
   y.forward(6)
   for i in range (16):
    makeRowOfWindows()
- def bus():
+ 
+def bus():
   #made by yasmineeeeeee
   y.color("yellow")
   y.begin_fill()
@@ -168,7 +169,7 @@ def skyscraper():
   
   def stickPerson():
   #made by yasmine
-  #head
+  #head and body
   y.pendown()
   y.pencolor("gray")
   y.fillcolor("gray")
@@ -179,14 +180,14 @@ def skyscraper():
   y.end_fill()
   y.right(90)
   y.forward(125)
-  #leg
+  #legs
   y.left(45)
   y.forward(85)
   y.right(180)
   y.forward(85)
   y.left(90)
   y.forward(85)
-  # arm
+  # arms
   y.right(180)
   y.forward(85)
   y.left(45)
@@ -233,6 +234,84 @@ def starfish():
     y.right(144)
   y.end_fill()
  
+def truck():
+  #made by yasmine!
+  y.color("black")
+  y.begin_fill()
+  y.forward(150)
+  y.right(90)
+  y.forward(75)
+  y.right(90)
+  y.forward(150)
+  y.right(90)
+  y.forward(75)
+  y.end_fill()
+  y.penup()
+  y.right(90)
+  y.forward(150)
+  y.right(90)
+  y.forward(75)
+  y.left(90)
+  y.pendown()
+  y.color("black")
+  y.begin_fill()
+  for i in range(4):
+    y.forward(35)
+    y.left(90)
+  y.end_fill()
+  for i in range(2):
+    y.forward(35)
+    y.left(90)
+  y.color("blue")
+  y.begin_fill()
+  for i in range(180):
+      y.forward(.3)
+      y.left(1)
+  y.end_fill()
+  y.penup()
+  y.forward(-35)
+  y.pendown()
+  y.color("gray")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(.3)
+    y.right(1)
+  y.end_fill()
+  y.right(180)
+  y.forward(-5)
+  y.left(90)
+  y.penup()
+  y.forward(15)
+  y.pendown()
+  y.color("black")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(.1)
+    y.right(1)
+  y.end_fill()
+  y.right(180)
+  y.penup()
+  y.forward(15)
+  y.left(90)
+  y.forward(130)
+  y.pendown()
+  y.color("gray")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(.3)
+    y.left(1)
+  y.end_fill()
+  y.forward(-5)
+  y.left(90)
+  y.penup()
+  y.forward(15)
+  y.pendown()
+  y.color("black")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(.1)
+    y.right(1)
+  y.end_fill()
 
 
 
