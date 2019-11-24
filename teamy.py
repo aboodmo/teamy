@@ -165,6 +165,37 @@ def skyscraper():
       y.left(1)
   y.end_fill()
   
+  def stickPerson():
+  #made by yasmine
+  #head
+  y.pendown()
+  y.pencolor("gray")
+  y.fillcolor("gray")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(.5)
+    y.left(1)
+  y.end_fill()
+  y.right(90)
+  y.forward(125)
+  #leg
+  y.left(45)
+  y.forward(85)
+  y.right(180)
+  y.forward(85)
+  y.left(90)
+  y.forward(85)
+  # arm
+  y.right(180)
+  y.forward(85)
+  y.left(45)
+  y.forward(50)
+  y.right(90)
+  y.forward(85)
+  y.left(180)
+  y.forward(85)
+  y.forward(85)
+
 
  
 
