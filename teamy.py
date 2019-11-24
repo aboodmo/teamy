@@ -82,27 +82,7 @@ def skyscraper():
    makeRowOfWindows()
 
  
-def bus():
-  #made by yasmine 
-  y.forward(350)
-  y.left(90)
-  y.forward(100)
-  y.left(90)
-  y.forward(350)
-  y.left(90)
-  y.forward(100)
-  y.penup()
-  y.left(90)
-  y.forward(40)
-  y.pendown()
-  for i in range(360):
-    y.forward(.75)
-    y.right(1)
-  y.forward(250)
-  for i in range(360):
-    y.forward(.75)
-    y.right(1)
-  
+
 
 
 update()
