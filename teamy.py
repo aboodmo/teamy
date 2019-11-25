@@ -359,7 +359,29 @@ def jellyfish():
     y.forward(30)
     y.right(90)
 
-
+def pumpkin():
+  y.pendown()
+  y.pencolor("brown")
+  y.color("orange")
+  y.begin_fill()
+  for i in range(360):
+    y.forward(1)
+    y.left(1)
+  y.end_fill()
+  #pumpkin stem
+  y.penup()
+  y.color("green")
+  y.forward(-15)
+  y.left(90)
+  y.forward(120)
+  y.pendown()
+  y.begin_fill()
+  for i in range(6):
+   y.forward(10)
+   y.right(90)
+   y.forward(15)
+  y.forward(15)
+  y.end_fill()
 
 
 update()
