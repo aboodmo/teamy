@@ -313,6 +313,53 @@ def truck():
     y.right(1)
   y.end_fill()
 
+def jellyfish():
+  #made by yasmine!!!
+  y.left(90)
+  y.color("pink")
+  y.begin_fill()
+  for i in range(180):
+    y.forward(1)
+    y.right(1)
+  y.right(90)
+  y.forward(110)
+  y.end_fill()
+  y.forward(-10)
+  y.left(90)
+  #legs
+  for i in range(4):
+    y.pendown()
+    for i in range(60):
+      y.forward(.5)
+      y.left(1)
+    for i in range(15):
+      y.forward(.1)
+      y.right(1)
+    for i in range(40):
+      y.forward(.3)
+      y.right(1)
+    for i in range(70):
+      y.forward(.5)
+      y.right(1)
+    y.right(180)
+    for i in range(70):
+      y.forward(.5)
+      y.left(1)
+    for i in range(40):
+      y.forward(.3)
+      y.left(1)
+    for i in range(15):
+      y.forward(.1)
+      y.left(1)
+    for i in range(60):
+      y.forward(.5)
+      y.right(1)
+    y.penup()
+    y.right(90)
+    y.forward(30)
+    y.right(90)
+
+
 
 
 update()
