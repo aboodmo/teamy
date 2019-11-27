@@ -81,6 +81,7 @@ def skyscraper():
   y.forward(6)
   for i in range (16):
    makeRowOfWindows()
+ y.penup()
  
 def bus():
   #made by yasmineeeeeee
@@ -166,37 +167,40 @@ def bus():
       y.forward(.4)
       y.left(1)
   y.end_fill()
+  y.penup()
+  
   
   def stickPerson():
   #made by yasmine
   #head and body
-  y.pendown()
-  y.pencolor("gray")
-  y.fillcolor("gray")
-  y.begin_fill()
-  for i in range(360):
-    y.forward(.5)
-    y.left(1)
-  y.end_fill()
-  y.right(90)
-  y.forward(125)
-  #legs
-  y.left(45)
-  y.forward(85)
-  y.right(180)
-  y.forward(85)
-  y.left(90)
-  y.forward(85)
-  # arms
-  y.right(180)
-  y.forward(85)
-  y.left(45)
-  y.forward(50)
-  y.right(90)
-  y.forward(85)
-  y.left(180)
-  y.forward(85)
-  y.forward(85)
+    y.pendown()
+    y.pencolor("gray")
+    y.fillcolor("gray")
+    y.begin_fill()
+    for i in range(360):
+      y.forward(.5)
+      y.left(1)
+    y.end_fill()
+    y.right(90)
+    y.forward(125)
+    #legs
+    y.left(45)
+    y.forward(85)
+    y.right(180)
+    y.forward(85)
+    y.left(90)
+    y.forward(85)
+    # arms
+    y.right(180)
+    y.forward(85)
+    y.left(45)
+    y.forward(50)
+    y.right(90)
+    y.forward(85)
+    y.left(180)
+    y.forward(85)
+    y.forward(85)
+    y.penup()
 
 def fish():
   #made by yasmine
@@ -221,6 +225,7 @@ def fish():
     y.right(1.5)
   y.forward(5)
   y.end_fill()
+  y.penup()
 
 def starfish():
   #made by yasmine
@@ -233,6 +238,7 @@ def starfish():
     y.forward(50)
     y.right(144)
   y.end_fill()
+  y.penup()
  
 def truck():
   #made by yasmine!
@@ -312,6 +318,7 @@ def truck():
     y.forward(.1)
     y.right(1)
   y.end_fill()
+  y.penup()
 
 def jellyfish():
   #made by yasmine!!!
@@ -358,6 +365,7 @@ def jellyfish():
     y.right(90)
     y.forward(30)
     y.right(90)
+    y.penup()
 
 def pumpkin():
   y.pendown()
@@ -382,6 +390,7 @@ def pumpkin():
    y.forward(15)
   y.forward(15)
   y.end_fill()
+  y.penup()
 
 
 update()
